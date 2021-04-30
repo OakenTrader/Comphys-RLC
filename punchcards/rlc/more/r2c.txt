@@ -1,0 +1,22 @@
+DO NOT MAKE CHANGE TO ANY TEXT EXCEPT ON ALLOWED FIELDS ELSE THE PROGRAM MIGHT FAIL
+------------- circuit type
+RC-Series
+------------- time set (ti, tf, dt)
+0.00 100.00 0.0001
+------------- Total Object, Total Node MAKE SURE TO CORRECT IT
+3 3
+------------- Object set (type,+ side,- side) type => 0 = R   1 = L    2 = C   3 = VSource 
+||  Object of the same type must have a different number
+0 1 0
+2 1 2
+2 0 2
+------------- Object data (data1, data2, etc as necessary) 
+|| Must be in the same order as above
+10.0
+3  0 
+3  6
+------------- Circuit description
+Free R2C - Charge transfer
+Resistor 10.0 Ohm
+Capacitor 3.00 Farad Emptied
+Capacitor 3.00 Farad 6.00 C

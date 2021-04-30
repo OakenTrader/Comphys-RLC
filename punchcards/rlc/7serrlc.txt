@@ -1,0 +1,22 @@
+DO NOT MAKE CHANGE TO ANY TEXT EXCEPT ON ALLOWED FIELDS ELSE THE PROGRAM MIGHT FAIL
+------------- circuit type
+RLC-Series
+------------- time set (ti, tf, dt)
+0.00 3.00 0.0000001
+------------- Total Object, Total Node MAKE SURE TO CORRECT IT
+3 3
+------------- Object set (type,+ side,- side) type => 0 = R   1 = L    2 = C   3 = VSource 
+||  Object of the same type must have a different number
+0 1 0
+1 2 1
+2 0 2
+------------- Object data (data1, data2, etc as necessary) 
+|| Must be in the same order as above
+1.00
+0.100
+0.100 2.00
+------------- Circuit description
+RLC-Discharging series
+Resistor 1.00 OHM
+Inductor 0.100 H
+Capacitor 0.100 F  2.00 C

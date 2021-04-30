@@ -1,0 +1,25 @@
+DO NOT MAKE CHANGE TO ANY TEXT EXCEPT ON ALLOWED FIELDS ELSE THE PROGRAM MIGHT FAIL
+------------- circuit type
+LC-Parallel-R-Series-Charge
+------------- time set (ti, tf, dt)
+0.00 100 0.0001
+------------- Total Object, Total Node MAKE SURE TO CORRECT IT
+4  3
+------------- Object set (type,+ side,- side) type => 0 = R   1 = L    2 = C   3 = VSource 
+||  Object of the same type must have a different number
+3 1 0
+2 2 1
+1 2 1
+0 0 2
+------------- Object data (data1, data2, etc as necessary) 
+|| Must be in the same order as above
+10 0 0
+1 0
+1
+10
+------------- Circuit description
+LC in parallel, series with R and V
+DC 10.0 V
+Capacitor 1.00 F Empty
+Inductor 1 H
+Resistor 10 OHM

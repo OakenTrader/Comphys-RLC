@@ -1,0 +1,25 @@
+DO NOT MAKE CHANGE TO ANY TEXT EXCEPT ON ALLOWED FIELDS ELSE THE PROGRAM MIGHT FAIL
+------------- circuit type
+2L-Parallel-with-1C
+------------- time set (ti, tf, dt)
+0.00 100.0 0.00001
+------------- Total Object, Total Node MAKE SURE TO CORRECT IT
+5 4
+------------- Object set (type,+ side,- side) type => 0 = R   1 = L    2 = C   3 = VSource 
+||  Object of the same type must have a different number
+3 1 0
+1 2 1
+1 2 3
+0 0 2
+2 3 1
+------------- Object data (data1, data2, etc as necessary) 
+|| Must be in the same order as above
+0 0 0
+1 
+1 
+1
+1  10
+------------- Circuit description
+2 Inductors parallel, 1 of them has a capacitor in series. 
+All in series with a DC source and a resistor
+

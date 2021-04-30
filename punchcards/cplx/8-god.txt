@@ -1,0 +1,43 @@
+DO NOT MAKE CHANGE TO ANY TEXT EXCEPT ON ALLOWED FIELDS ELSE THE PROGRAM MIGHT FAIL
+------------- circuit type
+Convoluted-circuit
+------------- time set (ti, tf, dt)
+0.00 100.0 0.00001
+------------- Total Object, Total Node MAKE SURE TO CORRECT IT
+15 9
+------------- Object set (type,+ side,- side) type => 0 = R   1 = L    2 = C   3 = VSource 
+||  Object of the same type must have a different number
+3  1  0
+0  2  1
+1  4  1
+2  4  1
+0  6  1
+1  6  1
+2  7  1
+2  3  2
+1  4  3
+0  5  4
+2  5  6
+1  8  6
+2  7  8
+0  5  7
+1  0  5
+------------- Object data (data1, data2, etc as necessary) 
+|| Must be in the same order as above
+10 0 0
+1
+1 
+1 0
+1
+1
+1 0
+1 0
+1
+1
+1 0
+1
+1 0
+1
+1
+------------- Circuit description
+Just look at the picture

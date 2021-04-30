@@ -1,0 +1,31 @@
+DO NOT MAKE CHANGE TO ANY TEXT EXCEPT ON ALLOWED FIELDS ELSE THE PROGRAM MIGHT FAIL
+------------- circuit type
+Wheatstone-Bridge-DC
+------------- time set (ti, tf, dt)
+0.00 1.00 0.01
+------------- Total Object, Total Node MAKE SURE TO CORRECT IT
+6 4
+------------- Object set (type,+ side,- side) type => 0 = R   1 = L    2 = C   3 = VSource 
+||  Object of the same type must have a different number
+0  2  1
+0  3  1
+0  3  2
+0  0  3
+0  0  2
+3  1  0
+------------- Object data (data1, data2, etc as necessary) 
+|| Must be in the same order as above
+20
+4
+10
+5
+25
+220 0 0
+------------- Circuit description
+Wheatstone Brudge
+DC source 220 Volt
+Resistor 20.0 Ohm
+Resistor 4.0 Ohm
+Resistor 10.0 Ohm
+Resistor 5 Ohm
+Resistor 25.0 Ohm

@@ -1,0 +1,29 @@
+DO NOT MAKE CHANGE TO ANY TEXT EXCEPT ON ALLOWED FIELDS ELSE THE PROGRAM MIGHT FAIL
+------------- circuit type
+Parallel-4R-2V
+------------- time set (ti, tf, dt)
+0.00 1.00 0.01
+------------- Total Object, Total Node MAKE SURE TO CORRECT IT
+6 4
+------------- Object set (type,+ side,- side) type => 0 = R   1 = L    2 = C   3 = VSource 
+||  Object of the same type must have a different number
+0  3  0
+0  3  0
+0  3  1
+0  3  2
+3  1  0
+3  2  0
+------------- Object data (data1, data2, etc as necessary) 
+|| Must be in the same order as above
+20.0
+10.0
+5.00
+5.00
+220 0 0
+220 0 0
+------------- Circuit description
+Parallel DC with 2 R  parallel with 2 V, each with 1 R in series
+Resistor 20.0 Ohm
+Resistor 10.0 Ohm
+DC source 220 Volt series with Resistor 5.00 Ohm
+DC source 220 Volt aligned series with Resistor 5.00 Ohm

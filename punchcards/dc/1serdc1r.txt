@@ -1,0 +1,19 @@
+DO NOT MAKE CHANGE TO ANY TEXT EXCEPT ON ALLOWED FIELDS ELSE THE PROGRAM MIGHT FAIL
+------------- circuit type
+Series
+------------- time set (ti, tf, dt)
+0.00 1.00 0.001
+------------- Total Object, Total Node MAKE SURE TO CORRECT IT
+2 2
+------------- Object set (type,+ side,- side) type => 0 = R   1 = L    2 = C   3 = VSource 
+||  Object of the same type must have a different number
+0  1  0
+3  0  1
+------------- Object data (data1, data2, etc as necessary) 
+|| Must be in the same order as above
+10.0
+220 0 0
+------------- Circuit description
+Simple DC with 1 R
+DC source 220 Volt
+Resistor 10.0 Ohm

@@ -1,0 +1,19 @@
+DO NOT MAKE CHANGE TO ANY TEXT EXCEPT ON ALLOWED FIELDS ELSE THE PROGRAM MIGHT FAIL
+------------- circuit type
+LC-Free
+------------- time set (ti, tf, dt)
+0.00 0.05 0.0000001
+------------- Total Object, Total Node MAKE SURE TO CORRECT IT
+2 2
+------------- Object set (type,+ side,- side) type => 0 = R   1 = L    2 = C   3 = VSource 
+||  Object of the same type must have a different number
+1 1 0
+2 0 1
+------------- Object data (data1, data2, etc as necessary) 
+|| Must be in the same order as above
+1
+0.000001 0.000001 
+------------- Circuit description
+Free RL circuit
+Inductor 1 H
+Capacitor 1 micro Farad 1 micro Coulomb
