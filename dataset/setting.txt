@@ -1,0 +1,28 @@
+Circuit type: Convoluted-circuit
+Initial time = 0.000000
+Final time = 100.000000
+Time increment = 1.00*10^-5
+Total objects = 5, Total nodes = 4
+-----------Voltage Source-----------
+V1 =   0.000000  VOLT  Omega =   0.000000  RAD/S  Phase Angle =   0.000000 RAD
+--------------Resistor--------------
+R1 =   1.000000  OHM
+--------------Inductor--------------
+L1 =   1.000000  HENRY
+L2 =   1.000000  HENRY
+--------------Capacitor--------------
+C1 =   1.000000  FARAD  Charges =  10.000000  COULOMB
+---------Object Connection--------
+Type       Number     Pos.Node     Neg.Node
+Source         0                1                 0
+Inductor      0                2                 1
+Inductor      1                2                 3
+Resistor       0                0                 2
+Capacitor     0                3                 1
+-------Obtained data columns-------
+Kirchhoff column vector : time    total-energy    dissipated-energy    I1    dI2/dt    dI3/dt    I4    I5    V1    V2    V3    
+RData : time    I0    P0    E0   
+LData : time    I0    dI0/dt    UL0    I1    dI1/dt    UL1    
+CData : time    I0    q0    U0   
+VData : time    I0    V0   
+NodeData : time    V(ground)   V1    V2    V3    
